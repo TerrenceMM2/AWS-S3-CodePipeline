@@ -11,3 +11,22 @@ body {
 a {
     text-decoration: none;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+footer > small {
+    text-align: center;
+    display: block;
+}
+
+#commit-date {
+    font-weight: bold;
+}
+
+#commit-msg {
+    font-style: italic;
+}
